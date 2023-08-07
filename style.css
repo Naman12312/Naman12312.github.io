@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Ubuntu;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: Ubuntu;
+}
+#createnote a{
+    position: absolute;
+    /* right:5vw; */
+    /* left:50%; */
+    bottom: -4vh;
+    text-decoration: none;
+    font-size: 24px;
+    background-color: rgb(0, 89, 255);
+    color: white;
+    padding: 4px;
+    width: 204px;
+    margin: auto;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+}
+#createnote img{
+    width: 38vh;
+    height:24vh;
+}
+#createnote{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    justify-content: center;
+    top:65vh;
+    /* left:40vw; */
+    width: 100%;
+}
+
+#mainh2{
+    position: absolute;
+    top:20vh;
+}
+#desc{
+    position: absolute;
+    top:39vh;
+}
+#otherdesc{
+    position: absolute;
+    top:50vh;
+}
+.common-h2{
+    text-align: center;
+    font-size: 5vh;
+    
+    width: 100%;
+    color:white;
+    
+    
+}
+#gan{
+    font-size: 5.8vh;
+    
+} 
+
+.container-fluid img{
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    
+}
+#otherli{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+#otherli li{
+    position: relative;
+    top:10px;
+    font-size: 20px;
+}
+.container #main{
+    
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: flex-start;
+    background-color: rgb(4, 32, 73);
+    height:auto;
+    flex-wrap: wrap;
+    width: 100%;
+    /* height: 4vh; */
+}
+.container ul li{
+    color:white;
+    padding: 3vh 2vh;
+}
+#mainh2{
+    padding: 4px 0;
+    padding-bottom: 6vh 0;
+}
+
+
+ @media (min-width:445px) and ( max-width:680px){
+    .container #main{
+        flex-direction: column;
+        /* justify-content: flex-end;
+         */
+         
+         align-items: center; 
+         
+        
+    }
+
+    
+    
+    
+
+} 
+
+@media (min-width:0px) and ( max-width:445px){
+    .container #main{
+        flex-direction: column;
+        /* justify-content: flex-end;
+         */
+         align-items: center;
+        /* height:222px; */
+        
+    }
+    #otherli li{
+        
+        
+        padding: 2vh 4px;
+    }
+
+
+    #mainh2{
+        margin:-4vh 0;
+    }
+
+    
+    #gan{
+        font-size: 4.5vh;
+        
+    } 
+    
+    #otherdesc{
+        position: absolute;
+        top:52vh;
+    }
+
+}
+
+
+
+
+
+
+
